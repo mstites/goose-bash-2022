@@ -4,6 +4,12 @@
   }
 /* COLORS NOT CURRENTLY USED */
 
+body {
+    /* font-family: 'Poppins'; */
+    margin:0em;
+    padding:0em 0em 0em 0em;
+    background-color: var(--main-bg-color);
+  }
 /* CONTAINERS */
 .container {
 padding: 1em 1.25em 1em 1.875em;
@@ -30,8 +36,8 @@ margin-left: auto;
     margin-right: auto;
   }
 
-.goose img {
-    max-height: 
+#goose {
+    max-width: 30vw;
 }
 
 /* FOOTER */
@@ -41,18 +47,18 @@ margin-left: auto;
   }
   
   
-  .footer ul {
+.footer ul {
     overflow: hidden;
     display: table;
     margin: auto;
   }
   
-  .footer li {
+.footer li {
     display: inline-block;
     align: center;
   }
   
-  .footer li a {
+.footer li a {
     display: inline-block;
     color: var(--main-txt-color);
     text-align: center;
