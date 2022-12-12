@@ -1,6 +1,5 @@
 :root {
-    --main-bg-color: #F2EEE2;
-    --main-txt-color: #595964;
+    --main-bg-color: #f9f9f9;
   }
 /* COLORS NOT CURRENTLY USED */
 
@@ -56,4 +55,13 @@ margin-left: auto;
 }
 .goose:hover .img-top {
     display: inline;
+}
+
+@media (hover:none), (hover:on-demand) {
+    .row {
+        width: 100%
+    }
+    .goose {
+        max-width: 100%;
+    }
 }
