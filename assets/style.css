@@ -36,14 +36,29 @@ margin-left: auto;
     margin-right: auto;
   }
 
-#instructions {
-    padding-top: 6em;
-}
-
-#goose {
+.goose {
     max-width: 30vw;
+    /* width: auto;
+    height: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; 
+
+    /* padding-top: 5em; */
     padding-bottom: 5em;
 }
+.goose .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.goose:hover .img-top {
+    display: inline;
+}
+
+
 
 /* FOOTER */
 .footer {
@@ -56,6 +71,7 @@ margin-left: auto;
     overflow: hidden;
     display: table;
     margin: auto;
+    padding-right: 1.25em;
   }
   
 .footer li {
