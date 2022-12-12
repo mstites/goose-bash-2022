@@ -57,33 +57,3 @@ margin-left: auto;
 .goose:hover .img-top {
     display: inline;
 }
-
-
-
-/* FOOTER */
-.footer {
-    width: 100%;
-    background-color: var(--main-bg-color);
-  }
-  
-  
-.footer ul {
-    overflow: hidden;
-    display: table;
-    margin: auto;
-    padding-right: 1.25em;
-  }
-  
-.footer li {
-    display: inline-block;
-    align: center;
-  }
-  
-.footer li a {
-    display: inline-block;
-    color: var(--main-txt-color);
-    text-align: center;
-    padding-right: 1em;
-    padding-left: 1em;
-    font-weight: normal;
-  }
